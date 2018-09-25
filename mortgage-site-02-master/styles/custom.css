@@ -1,0 +1,57 @@
+h1 {
+  font-size: 1.6rem;
+}
+
+#hero-title {
+  padding: 30rem 0rem;
+}
+
+#hero-img {
+  z-index: 0;
+  background-image: url("../images/banner-money-wood-house.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: none;
+  overflow-x: hidden;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-banner {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#banner-one {
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  text-align: center;
+}
+
+#banner-transparent {
+  top: 45px;
+  background-color: rgba(0, 102, 0, 0.3);
+}
+
+#navigation {
+  text-align: right;
+}
+
+#navigation > li {
+  display: inline-block;
+  padding: 2rem 1rem 1.6rem 1rem;
+}
+
+navigation > li > a {
+  color: #fff;
+}
+
+#prequal-button {
+  display: flex;
+  justify-content: center;
+}
