@@ -52,6 +52,7 @@ navigation > li > a {
 }
 
 #prequal-button {
+  width: 8rem;
   display: flex;
   justify-content: center;
 }
